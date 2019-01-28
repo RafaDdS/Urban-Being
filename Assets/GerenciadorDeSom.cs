@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GerenciadorDeSom : MonoBehaviour
 {
-
+	// Nada Mal
     public static GerenciadorDeSom Instan;
 
     [SerializeField]
