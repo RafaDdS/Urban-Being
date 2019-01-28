@@ -33,8 +33,8 @@ public class Elevador : MonoBehaviour
     {
         if (collision.transform == Player.Instan.transform)
         {
-            if (Player.Instan.transform.position.y > 0) Player.Instan.Texto.text = preco.ToString();
-            else Player.Instan.Texto.text = "0";
+            if (Player.Instan.transform.position.y > 0) Player.Instan.Texto.text = "E->" + preco;
+            else Player.Instan.Texto.text = "E->0";
         }
     }
 

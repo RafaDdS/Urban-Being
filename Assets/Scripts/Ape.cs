@@ -40,6 +40,7 @@ public class Ape : MonoBehaviour
                     if (Player.Instan.Dinheiro > preco)
                     {
                         Player.Instan.Dinheiro -= preco;
+                        Player.Instan.Texto.text = "";
                         Sec.SetActive(true);
                     }
 
@@ -123,7 +124,7 @@ public class Ape : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.transform == Player.Instan.transform) Player.Instan.Texto.text = preco.ToString();
+        if(collision.transform == Player.Instan.transform && !Sec.activeSelf) Player.Instan.Texto.text = "E->" + preco;
 
     }
 
