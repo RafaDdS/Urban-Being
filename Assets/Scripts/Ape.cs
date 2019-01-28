@@ -120,4 +120,15 @@ public class Ape : MonoBehaviour
 
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.transform == Player.Instan.transform) Player.Instan.Texto.text = preco.ToString();
+
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.transform == Player.Instan.transform) Player.Instan.Texto.text = "";
+    }
 }

@@ -29,6 +29,20 @@ public class Elevador : MonoBehaviour
 
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.transform == Player.Instan.transform)
+        {
+            if (Player.Instan.transform.position.y > 0) Player.Instan.Texto.text = preco.ToString();
+            else Player.Instan.Texto.text = "0";
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.transform == Player.Instan.transform) Player.Instan.Texto.text = "";
+    }
+
     private void OnTriggerStay2D(Collider2D ou)
     {
         if (Input.GetKeyDown(KeyCode.E))

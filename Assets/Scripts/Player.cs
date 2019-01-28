@@ -43,6 +43,8 @@ public class Player : MonoBehaviour
     [HideInInspector]
     public int _dinheiroEmCasa;
 
+    public TMPro.TextMeshPro Texto;
+
     public int DinheiroEmCasa
     {
         get { return _dinheiroEmCasa; }
@@ -159,6 +161,8 @@ public class Player : MonoBehaviour
         else Destroy(gameObject);
 
         _vida = MaxVida;
+
+        Texto = GetComponentInChildren<TMPro.TextMeshPro>();
 
         maxVel = MaxVelocidade;
 
