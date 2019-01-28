@@ -1,0 +1,1659 @@
+fileFormatVersion: 2
+guid: e3b42c55a4f65fc43b1140d2ad1279dd
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Left BG_0
+    21300002: Left BG_1
+    21300004: Left BG_2
+    21300006: Left BG_14
+    21300008: Left BG_15
+    21300010: Left BG_16
+    21300012: Left BG_17
+    21300014: Left BG_18
+    21300016: Left BG_19
+    21300018: Left BG_20
+    21300020: Left BG_21
+    21300022: Left BG_22
+    21300024: Left BG_23
+    21300026: Left BG_24
+    21300028: Left BG_25
+    21300030: Left BG_26
+    21300032: Left BG_27
+    21300034: Left BG_28
+    21300036: Left BG_29
+    21300038: Left BG_30
+    21300040: Left BG_31
+    21300042: Left BG_32
+    21300044: Left BG_33
+    21300046: Left BG_34
+    21300048: Left BG_35
+    21300050: Left BG_36
+    21300052: Left BG_37
+    21300054: Left BG_38
+    21300056: Left BG_39
+    21300058: Left BG_40
+    21300060: Left BG_41
+    21300062: Left BG_42
+    21300064: Left BG_43
+    21300066: Left BG_44
+    21300068: Left BG_45
+    21300070: Left BG_46
+    21300072: Left BG_47
+    21300074: Left BG_48
+    21300076: Left BG_49
+    21300078: Left BG_50
+    21300080: Left BG_51
+    21300082: Left BG_52
+    21300084: Left BG_53
+    21300086: Left BG_54
+    21300088: Left BG_55
+    21300090: Left BG_56
+    21300092: Left BG_57
+    21300094: Left BG_58
+    21300096: Left BG_59
+    21300098: Left BG_60
+    21300100: Left BG_61
+    21300102: Left BG_62
+    21300104: Left BG_63
+    21300106: Left BG_64
+    21300108: Left BG_65
+    21300110: Left BG_66
+    21300112: Left BG_67
+    21300114: Left BG_68
+    21300116: Left BG_69
+    21300118: Left BG_70
+    21300120: Left BG_71
+    21300122: Left BG_72
+    21300124: Left BG_73
+    21300126: Left BG_74
+    21300128: Left BG_75
+    21300130: Left BG_76
+    21300132: Left BG_77
+    21300134: Left BG_78
+    21300136: Left BG_79
+    21300138: Left BG_80
+    21300140: Left BG_81
+    21300142: Left BG_82
+    21300144: Left BG_83
+    21300146: Left BG_84
+    21300148: Left BG_85
+    21300150: Left BG_86
+    21300152: Left BG_87
+    21300154: Left BG_88
+    21300156: Left BG_89
+    21300158: Left BG_90
+    21300160: Left BG_91
+    21300162: Left BG_92
+    21300164: Left BG_93
+    21300166: Left BG_94
+    21300168: Left BG_95
+    21300170: Left BG_96
+    21300172: Left BG_97
+    21300174: Left BG_98
+    21300176: Left BG_99
+    21300178: Left BG_100
+    21300180: Left BG_101
+    21300182: Left BG_102
+    21300184: Left BG_103
+    21300186: Left BG_104
+    21300188: Left BG_105
+    21300190: Left BG_106
+    21300192: Left BG_107
+    21300194: Left BG_108
+    21300196: Left BG_109
+    21300198: Left BG_110
+    21300200: Left BG_111
+    21300202: Left BG_112
+    21300204: Left BG_113
+    21300206: Left BG_114
+    21300208: Left BG_115
+    21300210: Left BG_116
+    21300212: Left BG_117
+    21300214: Left BG_118
+    21300216: Left BG_119
+    21300218: Left BG_120
+    21300220: Left BG_121
+    21300222: Left BG_122
+    21300224: Left BG_123
+    21300226: Left BG_124
+    21300228: Left BG_125
+    21300230: Left BG_126
+    21300232: Left BG_127
+    21300234: Left BG_128
+    21300236: Left BG_129
+    21300238: Left BG_130
+    21300240: Left BG_131
+    21300242: Left BG_132
+    21300244: Left BG_133
+    21300246: Left BG_134
+    21300248: Left BG_135
+    21300250: Left BG_136
+    21300252: Left BG_137
+    21300254: Left BG_138
+    21300256: Left BG_139
+    21300258: Left BG_140
+    21300260: Left BG_141
+    21300262: Left BG_142
+    21300264: Left BG_143
+    21300266: Left BG_144
+    21300268: Left BG_145
+    21300270: Left BG_146
+    21300272: Left BG_147
+    21300274: Left BG_148
+    21300276: Left BG_149
+    21300278: Left BG_150
+    21300280: Left BG_151
+    21300282: Left BG_152
+    21300284: Left BG_153
+    21300286: Left BG_154
+    21300288: Left BG_155
+    21300290: Left BG_156
+    21300292: Left BG_157
+    21300294: Left BG_158
+    21300296: Left BG_159
+    21300298: Left BG_160
+    21300300: Left BG_161
+    21300302: Left BG_162
+    21300304: Left BG_163
+    21300306: Left BG_164
+    21300308: Left BG_165
+    21300310: Left BG_166
+    21300312: Left BG_167
+    21300314: Left BG_3
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Left BG_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 167
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec83153f2265ac8449ab472187436b34
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 167
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39eedf47c1f3a845ae998568d0f264e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_2
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 164
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda4defcd3c420e46a745bdc235a46c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_63
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 36
+        width: 27
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8425ad99527fc844faf4f4102eee6801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_64
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7af1801bf2a1f34fa7ec1ea344dda23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_65
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc82faff16f563a4db5eb0116382b808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_66
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 36
+        width: 26
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696571d7f927cbe409297481c0e5f94e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_67
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a57bd73398566e48a83e4c1e3fd8b1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_68
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02c88e298de6ac4da3132077f935ff7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_69
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 36
+        width: 27
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23dd1dfdae5110459a1507811a63706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_70
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f144485b854baba4d960d059d3fb1bf2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_71
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cec3294a067e274ab673dc596694cd9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_72
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 36
+        width: 27
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46cb44e1ba6c9b443b95b72870090a57
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_73
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36aad290f3a57ac4faac3abb60794c00
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_74
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20e72dd8c824934d8e815a5743766f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_75
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 36
+        width: 27
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d095265075781f243b3b042406a9114e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_76
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3473a75c108f21a46bd16471066d9e92
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_77
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5933e08e6628744cba49c92a92d3f72
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_78
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 36
+        width: 27
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cbf57be459cbc145b7bd1ecaee9754f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_79
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1572b073379129e4cb815b49cb04ae3c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_80
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369f5c5b04d33234996d25c1b1849061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_81
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 36
+        width: 27
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7027543eff538ba48a6a19273f34fd63
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_82
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3561ecb9618aea4a81e7b37354e273e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_83
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbae30f9e5f49ec4b8e2d675c158093a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_84
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 36
+        width: 27
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40baf3677b43ddb4ea75902927437b3e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_85
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e4930a55e7e8b4b96104184f79eb51
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_86
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306a050bab2e5684185ce39c0543eb97
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_87
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 36
+        width: 27
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875b16e0f7698534b82d9ca77911f8c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_88
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b4da5522bb4d7479add4e07148f84a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_89
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8631c29807565c42bf62c5c2eaf9715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_90
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 36
+        width: 27
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0aaab675ba48a42ad19495452ba454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_91
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9050625ee34c93d4c8346a9e58b1d70e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_92
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7a9ce9372973d4fa23a5c53733b266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_93
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 36
+        width: 27
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d178581e7e7fd4793a04787a036ddd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_94
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b260bdfc2bb62479e0389b42e607e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_95
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a575445c8adbc4141818d3704b2b7e06
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_96
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 36
+        width: 26
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f844c7ef03b55408b4072144369a50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_97
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6491893279ce3be48b025ade75409859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_98
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279ac86cf24ba1344a99617f26b36d71
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_99
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 36
+        width: 27
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a479677b2f5d73438442518818ec78e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_100
+      rect:
+        serializedVersion: 2
+        x: 1588
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c5049f74e2c4440963a13ad05babd8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_101
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b414e5d7d51c74eae2f6718fcf80d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_102
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 36
+        width: 26
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b96a1608daf976c4bbf41d9281124216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_103
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad52810fab8a65d44ac542e8de55ef9f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_104
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b3c65e87257f749876f53aacc83ffc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_105
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 36
+        width: 28
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac43f91cdd92b124c99c9b4c43a12986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_106
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8d1dc3918886b4c8036cf0870b4a18
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_107
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0937d4632dcc02d4799eaaf9e481059c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_108
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 36
+        width: 28
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a33fac9b8a2f647b4348f5de8fa475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_109
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e3c10dbf7ae9c4794268514284ea7b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_110
+      rect:
+        serializedVersion: 2
+        x: 2015
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ca44a1fc70d1f40b03146d92274691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_111
+      rect:
+        serializedVersion: 2
+        x: 2055
+        y: 36
+        width: 28
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096636f8e07a7bd4fb576393ab4ec2a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_112
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc8bc7837b60734fb0a51052aed6b41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_113
+      rect:
+        serializedVersion: 2
+        x: 2143
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed3941c1ba5a12947b4e9186885df13b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_114
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 36
+        width: 28
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda77cd7a39a9ce4ea6020f92216fe01
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_115
+      rect:
+        serializedVersion: 2
+        x: 2229
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e85fdbf6084f2b4a9910c4814863219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_116
+      rect:
+        serializedVersion: 2
+        x: 2271
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8d57dfa9adda44cb30b4fd13032ff9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_117
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 36
+        width: 26
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd93bb7fb0e5e042821f7b5dbc158c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_118
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d647cb5f0eca64d8f861b0a62ac2a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_119
+      rect:
+        serializedVersion: 2
+        x: 2399
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1fce09cc9431ac479ca038ff57daaee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_120
+      rect:
+        serializedVersion: 2
+        x: 2440
+        y: 36
+        width: 28
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07269259b9bbe2f44b43866f704e9589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_121
+      rect:
+        serializedVersion: 2
+        x: 2485
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1620c58053f0242a17a40e210972b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_122
+      rect:
+        serializedVersion: 2
+        x: 2527
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7c85c75cdf46d468f0e84ae3c35b11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_123
+      rect:
+        serializedVersion: 2
+        x: 2569
+        y: 36
+        width: 26
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ac85437b1839748915e7bd5cf9ac78
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_124
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb22c97e00b6ce49bf1ecb37d49e478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_125
+      rect:
+        serializedVersion: 2
+        x: 2655
+        y: 53
+        width: 21
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506fd60f61dee1b4a884c5086975e47e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_166
+      rect:
+        serializedVersion: 2
+        x: 2562
+        y: 3
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd08e1634b6efb439b403a152786c8e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_167
+      rect:
+        serializedVersion: 2
+        x: 2615
+        y: 3
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecdbfc09baf3a884190e3cdd32da7653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left BG_3
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 151
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0a5e281f98002419090f89c4dd4281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 7a4fce2828b723f41ad8d073a365a00d
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

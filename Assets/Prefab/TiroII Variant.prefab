@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!60 &4857015324980538018
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3625173442789226934}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.8, y: 0.8}
+    newSize: {x: 0.512, y: 0.512}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.34247684, y: 0.19645816}
+      - {x: -0.34918356, y: 0.099636555}
+      - {x: -0.060072422, y: -0.20199662}
+      - {x: 0.05480957, y: -0.20199662}
+      - {x: 0.35146523, y: 0.09622735}
+      - {x: 0.3537464, y: 0.20396703}
+--- !u!1001 &2519943173196157110
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1204597438550550784, guid: 44e7acd2df1dac2459a21668b3cf9997,
+        type: 3}
+      propertyPath: m_Name
+      value: TiroII Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1204597438550550784, guid: 44e7acd2df1dac2459a21668b3cf9997,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1204597438550551038, guid: 44e7acd2df1dac2459a21668b3cf9997,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.2150135
+      objectReference: {fileID: 0}
+    - target: {fileID: 1204597438550551038, guid: 44e7acd2df1dac2459a21668b3cf9997,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.97850806
+      objectReference: {fileID: 0}
+    - target: {fileID: 1204597438550551038, guid: 44e7acd2df1dac2459a21668b3cf9997,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1204597438550551038, guid: 44e7acd2df1dac2459a21668b3cf9997,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1204597438550551038, guid: 44e7acd2df1dac2459a21668b3cf9997,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1204597438550551038, guid: 44e7acd2df1dac2459a21668b3cf9997,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1204597438550551038, guid: 44e7acd2df1dac2459a21668b3cf9997,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1204597438550551038, guid: 44e7acd2df1dac2459a21668b3cf9997,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1204597438550551038, guid: 44e7acd2df1dac2459a21668b3cf9997,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1204597438550551038, guid: 44e7acd2df1dac2459a21668b3cf9997,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1204597438550551038, guid: 44e7acd2df1dac2459a21668b3cf9997,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1204597438550550785, guid: 44e7acd2df1dac2459a21668b3cf9997,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 365350bb1b83de94684dd02cc07b5fca,
+        type: 3}
+    - target: {fileID: 1204597438550551037, guid: 44e7acd2df1dac2459a21668b3cf9997,
+        type: 3}
+      propertyPath: subTiro.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1204597438550551037, guid: 44e7acd2df1dac2459a21668b3cf9997,
+        type: 3}
+      propertyPath: subTiro.Array.data[0]
+      value: 
+      objectReference: {fileID: 5504675399561881681, guid: 96b9114cf47701a45be4b2bd87456e2a,
+        type: 3}
+    - target: {fileID: 1204597438550551037, guid: 44e7acd2df1dac2459a21668b3cf9997,
+        type: 3}
+      propertyPath: subTiro.Array.data[1]
+      value: 
+      objectReference: {fileID: 5504675399561881681, guid: 96b9114cf47701a45be4b2bd87456e2a,
+        type: 3}
+    - target: {fileID: 1204597438550551037, guid: 44e7acd2df1dac2459a21668b3cf9997,
+        type: 3}
+      propertyPath: subTiro.Array.data[2]
+      value: 
+      objectReference: {fileID: 5504675399561881681, guid: 96b9114cf47701a45be4b2bd87456e2a,
+        type: 3}
+    - target: {fileID: 1204597438550551037, guid: 44e7acd2df1dac2459a21668b3cf9997,
+        type: 3}
+      propertyPath: subTiro.Array.data[3]
+      value: 
+      objectReference: {fileID: 5504675399561881681, guid: 96b9114cf47701a45be4b2bd87456e2a,
+        type: 3}
+    - target: {fileID: 1204597438550551037, guid: 44e7acd2df1dac2459a21668b3cf9997,
+        type: 3}
+      propertyPath: subTiro.Array.data[4]
+      value: 
+      objectReference: {fileID: 5504675399561881681, guid: 96b9114cf47701a45be4b2bd87456e2a,
+        type: 3}
+    m_RemovedComponents:
+    - {fileID: 1204597438550551039, guid: 44e7acd2df1dac2459a21668b3cf9997, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 44e7acd2df1dac2459a21668b3cf9997, type: 3}
+--- !u!1 &3625173442789226934 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1204597438550550784, guid: 44e7acd2df1dac2459a21668b3cf9997,
+    type: 3}
+  m_PrefabInstance: {fileID: 2519943173196157110}
+  m_PrefabAsset: {fileID: 0}
