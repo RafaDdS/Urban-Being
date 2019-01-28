@@ -4,9 +4,6 @@ using UnityEngine;
 
 public class Inimigo : MonoBehaviour
 {
-
-    public static List<Inimigo> Perigo = new List<Inimigo>();
-
     [SerializeField]
     int _vida;
 
@@ -70,8 +67,6 @@ public class Inimigo : MonoBehaviour
     public void Morrer()
     {
         foreach (var i in Drop) Instantiate(i, transform.position, Quaternion.identity);
-
-        Perigo.Remove(this);
         
         Destroy(gameObject);
     }
@@ -90,7 +85,7 @@ public class Inimigo : MonoBehaviour
     private void OnBecameVisible()
     {
         AtiraEne = true;
-        Perigo.Add(this);
+        enabled = true;
     }
 
     private void OnBecameInvisible()

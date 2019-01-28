@@ -4,6 +4,7 @@ using UnityEngine;
 using System.Linq;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class Interface : MonoBehaviour
@@ -55,6 +56,13 @@ public class Interface : MonoBehaviour
     {
         if (Instan == null) Instan = this;
         else Destroy(gameObject);
+        //PlayerPrefs.DeleteAll();
+    }
+
+    public void Restart() {
+        GerenciadorDeSom.Play(10);
+        
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public static void AtualizarCoracao(int n) {
@@ -83,8 +91,7 @@ public class Interface : MonoBehaviour
     }
 
     public static void AbrirMenuRanking()
-    {
-        
+    {    
         Instan.MenuEntradaNome.SetActive(true);
         Instan.RankingInput.Select();
     }
@@ -92,8 +99,12 @@ public class Interface : MonoBehaviour
 
     public void BotEntradaNome(string no)
     {
+        if (no.Length < 3) return;
+
         RankingInput.gameObject.SetActive(false);
+        PlanoRecordes.gameObject.SetActive(true);
         RecuperarPontuacao();
+        SalvarPontuacao(no);
         EscreverPontuacao();
     }
 
@@ -105,9 +116,9 @@ public class Interface : MonoBehaviour
 
         nPonts = (PlayerPrefs.HasKey("NumeroDePonts")) ? PlayerPrefs.GetInt("NumeroDePonts") : 0;
 
-        for (int i = 1; i <= nPonts; i++)
+        for (int i = 0; i < nPonts; i++)
         {
-            Chaves.Add(PlayerPrefs.GetString(i.ToString()));
+            Chaves.Add(PlayerPrefs.GetString("gjgv" + i.ToString()));
         }
 
         foreach (var cha in Chaves)
@@ -115,10 +126,33 @@ public class Interface : MonoBehaviour
             Nomes.Add(PlayerPrefs.GetString(cha));
             Ponts.Add(PlayerPrefs.GetInt(cha + "i"));
         }
-        Nomes.Reverse();
-        Ponts.Reverse();
+
+        //Nomes.Reverse();
+        //Ponts.Reverse();
     }
 
+    void SalvarPontuacao(string Nome)
+    {
+        var k = (Time.time * (1 + Random.value)).ToString();
+
+        var Pos = Ponts.Where(a => a >= Player.Instan.DinheiroEmCasa ).Count();
+
+        nPonts++;
+        Chaves.Insert(Pos, k);
+        Nomes.Insert(Pos, Nome);
+        Ponts.Insert(Pos, Player.Instan.DinheiroEmCasa);
+
+        PlayerPrefs.SetInt("NumeroDePonts", nPonts);
+
+        for (int i = 0; i < nPonts; i++)
+        {
+            PlayerPrefs.SetString("gjgv" + i.ToString(), Chaves[i]);
+            PlayerPrefs.SetString(Chaves[i], Nomes[i]);
+            PlayerPrefs.SetInt(Chaves[i] + "i", Ponts[i]);
+        }
+
+        PlayerPrefs.Save();
+    }
 
     void EscreverPontuacao()
     {

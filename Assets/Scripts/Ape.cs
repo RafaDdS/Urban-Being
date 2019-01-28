@@ -51,15 +51,16 @@ public class Ape : MonoBehaviour
                 if(AplicandoStatus) anim.Play("A");
                 sp.sprite = Comprado;
                 AplicandoStatus = false;
+                GerenciadorDeSom.StopNow(3);
                 StopCoroutine("StatusCasa");
             }
             else
             {
                 if (Player.Instan.Dinheiro > 0)
                 {
-                    Player.Instan.dinheiroEmCasa = Player.Instan.Dinheiro;
+                    Player.Instan.DinheiroEmCasa = Player.Instan.Dinheiro;
                     Player.Instan.Dinheiro = 0;
-                    Interface.AtuDinCasa(Player.Instan.dinheiroEmCasa);
+                    
                 }
                 anim.enabled = true;
                 if (!AplicandoStatus)
@@ -77,6 +78,7 @@ public class Ape : MonoBehaviour
             {
                 sp.sprite = Comprado;
                 AplicandoStatus = false;
+                GerenciadorDeSom.StopNow(3);
                 StopCoroutine("StatusCasa");
             }
             else

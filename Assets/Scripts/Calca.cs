@@ -24,7 +24,7 @@ public class Calca : Inimigo
 
         posIni = transform.position;
         rb = GetComponent<Rigidbody2D>();
-        InvokeRepeating("Ati", 2 * TempoTiro, TempoTiro);
+        InvokeRepeating("Ati", 1f + TempoTiro, TempoTiro);
         //StartCoroutine("Mover");
     }
 

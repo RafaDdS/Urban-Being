@@ -12,7 +12,7 @@ public class Depre : Inimigo
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        InvokeRepeating("Ati", 2 * TempoTiro, TempoTiro);
+        InvokeRepeating("Ati", 1f + TempoTiro, TempoTiro);
     }
 
     void Ati()

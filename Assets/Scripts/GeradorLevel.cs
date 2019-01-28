@@ -33,7 +33,7 @@ public class GeradorLevel : MonoBehaviour
     {
         get
         {
-            return new Vector3(Random.Range(-limiteX, limiteX), Random.Range(2, limiteY)) + transform.position;
+            return new Vector3(Random.Range(-limiteX, limiteX), Random.Range(5, limiteY)) + transform.position;
         }
     }
 

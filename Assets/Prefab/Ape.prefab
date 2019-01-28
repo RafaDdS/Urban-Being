@@ -94,6 +94,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Casa: 0
+  preco: 5
   disInteragir: 2
   Comprado: {fileID: 21300000, guid: dcf64aaf1798b994ca1918a0af546705, type: 3}
   EmUso: {fileID: 21300000, guid: ea553961bca85a54db616489a50d6aa1, type: 3}

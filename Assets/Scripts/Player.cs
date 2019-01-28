@@ -33,6 +33,7 @@ public class Player : MonoBehaviour
 
 
     bool PerdendoVida;
+    [SerializeField]
     int _vida, _estresse, _agitacao = 6, _dinheiro, Inv;
     Vector2 vec;
     [HideInInspector]
@@ -40,7 +41,17 @@ public class Player : MonoBehaviour
     SpriteRenderer sp;
 
     [HideInInspector]
-    public int dinheiroEmCasa;
+    public int _dinheiroEmCasa;
+
+    public int DinheiroEmCasa
+    {
+        get { return _dinheiroEmCasa; }
+        set
+        {
+            _dinheiroEmCasa = value;
+            Interface.AtuDinCasa(value);
+        }
+    }
 
     Vector2 DireTiro
     {
@@ -54,23 +65,27 @@ public class Player : MonoBehaviour
     {
         get { return _vida; }
         set {
-            var v = value - _vida;
-
-            if (v < 0)
+            if (enabled)
             {
-                if (Inv > 0) return;
-                GerenciadorDeSom.Play(7);
-                Inv = framesInv;
-                _vida = value;
-                Estresse++;
-            }else
-                if ((!(_vida % 3 == 0) && v == 1) && !(value > MaxVida)) _vida = value;
+                var v = value - _vida;
 
-            var n = (_vida == 0) ? 0 : ((_vida < 2) ? 1 : ((_vida < 3) ? 2 : ((_vida < 4) ? 3 : ((_vida < 7) ? 4 : ((_vida < 9) ? 5 : 6 ) ))));
+                if (v < 0)
+                {
+                    if (Inv > 0) return;
+                    GerenciadorDeSom.Play(7);
+                    Inv = framesInv;
+                    _vida = value;
+                    Estresse++;
+                }
+                else
+                    if ((!(_vida % 3 == 0) && v == 1) && !(value > MaxVida)) _vida = value;
 
-            Interface.AtualizarCoracao(n);
+                var n = (_vida == 0) ? 0 : ((_vida < 2) ? 1 : ((_vida < 3) ? 2 : ((_vida < 4) ? 3 : ((_vida < 7) ? 4 : ((_vida < 9) ? 5 : 6)))));
 
-            if (value == 0) Morrer();
+                Interface.AtualizarCoracao(n);
+
+                if (value == 0) Morrer();
+            }
         }
     }
 
@@ -80,21 +95,24 @@ public class Player : MonoBehaviour
 
         set
         {
-            if (value > _estresse && value < 10) Agitacao++;
+            if (enabled)
+            {
+                if (value > _estresse && value < 10) Agitacao++;
 
-            if (value <= 0)
-                _estresse = 0;
-            else if (value >= 15)
-                _estresse = 15;
-            else
-                _estresse = value;
+                if (value <= 0)
+                    _estresse = 0;
+                else if (value >= 15)
+                    _estresse = 15;
+                else
+                    _estresse = value;
 
-            if (_estresse >= 10) StartCoroutine("PerderVidaEstresse");
+                if (_estresse >= 10) StartCoroutine("PerderVidaEstresse");
                 else PerdendoVida = false;
 
-            var n = (_estresse == 0) ? 0 : ((_estresse < 3) ? 1 : ((_estresse < 7) ? 2 : ((_estresse < 9) ? 3 : ((_estresse < 10) ? 4 : ((_estresse < 15) ? 5 : 6)))));
+                var n = (_estresse == 0) ? 0 : ((_estresse < 3) ? 1 : ((_estresse < 7) ? 2 : ((_estresse < 9) ? 3 : ((_estresse < 10) ? 4 : ((_estresse < 15) ? 5 : 6)))));
 
-            Interface.AtualizarCerebro(n);
+                Interface.AtualizarCerebro(n);
+            }
         }
     }
 
@@ -103,18 +121,21 @@ public class Player : MonoBehaviour
         get { return _agitacao; }
         set
         {
-            if (value <= 0)
-                _agitacao = 0;
-            else if (value >= 21)
-                _agitacao = 21;
-            else
-                _agitacao = value;
+            if (enabled)
+            {
+                if (value <= 0)
+                    _agitacao = 0;
+                else if (value >= 21)
+                    _agitacao = 21;
+                else
+                    _agitacao = value;
 
-            maxVel = MaxVelocidade + _agitacao - 6;
+                maxVel = MaxVelocidade + _agitacao - 6;
 
-            var n = (_agitacao < 6) ? 0 : ((_agitacao < 9) ? 1 : ((_agitacao < 12) ? 2 : ((_agitacao < 15) ? 3 : ((_agitacao < 18) ? 4 : ((_agitacao < 21) ? 5 : 6)))));
+                var n = (_agitacao < 6) ? 0 : ((_agitacao < 9) ? 1 : ((_agitacao < 12) ? 2 : ((_agitacao < 15) ? 3 : ((_agitacao < 18) ? 4 : ((_agitacao < 21) ? 5 : 6)))));
 
-            Interface.AtualizarPumao(n);
+                Interface.AtualizarPumao(n);
+            }
         }
     }
 
@@ -124,6 +145,7 @@ public class Player : MonoBehaviour
         set
         {
             _dinheiro = value;
+            Interface.AtuDin(value);
         }
     }
 
@@ -144,7 +166,7 @@ public class Player : MonoBehaviour
         sp = GetComponent<SpriteRenderer>();
 
         StartCoroutine("AumentarStress");
-        //PlayerPrefs.DeleteAll();
+        
     }
 
     IEnumerator AumentarStress() {
@@ -210,7 +232,7 @@ public class Player : MonoBehaviour
         var t = Instantiate(Tiro, transform.position, Quaternion.Euler(0,0, Mathf.Rad2Deg * (Mathf.PI *0.5f + Mathf.Atan2(DireTiro.y, DireTiro.x))));
         var tt = t.GetComponent<Tiro>();
 
-        GerenciadorDeSom.PlayLoop(6);
+        GerenciadorDeSom.Play(6);
 
         if (tt) tt.Dire = DireTiro;   
     }
