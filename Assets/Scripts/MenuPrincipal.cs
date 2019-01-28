@@ -42,7 +42,7 @@ public class MenuPrincipal : MonoBehaviour
 
     void Louda2()
     {
-        GerenciadorDeSom.Play(8);
+        GerenciadorDeSom.PlayLoop(8);
         GerenciadorDeSom.Stop(9);
         SceneManager.LoadScene(1);
         

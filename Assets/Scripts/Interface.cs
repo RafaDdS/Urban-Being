@@ -69,15 +69,15 @@ public class Interface : MonoBehaviour
         Instan.CoracaoGO.sprite = Instan.Coracao[n];
         if (n == 0) Instan.Direita.sprite = Instan.Morto;
 
-        Instan.VidaBarra.sprite = Instan.VidaBarrasp[Player.Instan.Vida];
+        if (Player.Instan.Vida <= Instan.VidaBarrasp.Count) Instan.VidaBarra.sprite = Instan.VidaBarrasp[Player.Instan.Vida];
     }
     public static void AtualizarCerebro(int n) { Instan.CerebroGO.sprite = Instan.Cerebro[n];
 
-        Instan.EstrBarra.sprite = Instan.EstrBarrasp[Player.Instan.Estresse];
+        if (Player.Instan.Estresse <= Instan.EstrBarrasp.Count) Instan.EstrBarra.sprite = Instan.EstrBarrasp[Player.Instan.Estresse];
     }
     public static void AtualizarPumao(int n) { Instan.PumaoGO.sprite = Instan.Pumao[n];
 
-        Instan.AgitBarra.sprite = Instan.AgitBarrasp[Player.Instan.Agitacao];
+        if(Player.Instan.Agitacao <= Instan.AgitBarrasp.Count) Instan.AgitBarra.sprite = Instan.AgitBarrasp[Player.Instan.Agitacao];
     }
 
     public static void AtuDin(int n)
