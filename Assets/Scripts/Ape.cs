@@ -59,7 +59,7 @@ public class Ape : MonoBehaviour
             {
                 if (Player.Instan.Dinheiro > 0)
                 {
-                    Player.Instan.DinheiroEmCasa = Player.Instan.Dinheiro;
+                    Player.Instan.DinheiroEmCasa += Player.Instan.Dinheiro;
                     Player.Instan.Dinheiro = 0;
                     
                 }
